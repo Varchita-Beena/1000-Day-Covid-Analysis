@@ -9,7 +9,7 @@ Each centre supports one or more Earth science disciplines and delivers data pro
 
 ## SUMMARY
 ### Data Downloading
-Data Name | Download Size | Granules/Files
+Data Name | #Download Size | #Granules/Files
 --- | --- | --- | --- | --- | --- | --- |
 AIRS | 54 GB | 123
 --- | --- | --- | --- | --- | --- | --- |
