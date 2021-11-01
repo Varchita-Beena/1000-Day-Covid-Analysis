@@ -5,7 +5,7 @@ The Earth Observing System (EOS) is made up of a number of Earth sensing satelli
 
 Each centre supports one or more Earth science disciplines and delivers data products, data information, services, and tools that are unique to that science's user community. The Earth Science disciplines include Atmosphere, Calibrated Radiance and Solar Radiance, Cyrosphere, Human Dimensions, Land and Ocean.<br><br>
 
-**The effects of lockdown on nitrogen dioxide and ozone air pollutants, surface temperature, night lights, snow cover, vegetation, and water level are examined in this study.**<br><br>
+**The effects of Covid-19 on nitrogen dioxide and ozone air pollutants, surface temperature, night lights, snow cover, vegetation, and water level are examined in this study.**<br><br>
 
 ## SUMMARY
 ### Data Downloading
