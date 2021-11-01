@@ -9,13 +9,13 @@ Each centre supports one or more Earth science disciplines and delivers data pro
 
 ## SUMMARY
 ### Data Downloading
-Data Name         | Download Size | Granules/Files| Format          | Extention | Library to read |
-AIRS              | 54 GB         | 123           | HDF-EOS2 (hdf4) | .hdf      | pyhdf           |
-Snow Cover        | 543 MB        | 127           | HDF-EOS2 (hdf4) | .hdf      | pyhdf           |
-Lakes             | 189 MB        | -             | -               | .csv      |                 |
-Vegetation        | 6.5 GB        | 64            | HDF-EOS2        | .hdf      | pyhdf           |
-Night Time Lights | 53 GB         | 14k           | HDF5            | .hdf5     | h5py            |  
-Nitrogen Dioxide  | 12.51 GB      | 1004          | HDF5            | .hdf5     | h5py            |
+Data Name         | Download Size | Granules/Files| Format          | Extention | Library to read |<br>
+AIRS              | 54 GB         | 123           | HDF-EOS2 (hdf4) | .hdf      | pyhdf           |<br>
+Snow Cover        | 543 MB        | 127           | HDF-EOS2 (hdf4) | .hdf      | pyhdf           |<br>
+Lakes             | 189 MB        | -             | -               | .csv      |                 |<br>
+Vegetation        | 6.5 GB        | 64            | HDF-EOS2        | .hdf      | pyhdf           |<br>
+Night Time Lights | 53 GB         | 14k           | HDF5            | .hdf5     | h5py            |<br>
+Nitrogen Dioxide  | 12.51 GB      | 1004          | HDF5            | .hdf5     | h5py            |<br>
 
 
 ##### Is this really necessary?<br>
