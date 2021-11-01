@@ -9,13 +9,22 @@ Each centre supports one or more Earth science disciplines and delivers data pro
 
 ## SUMMARY
 ### Data Downloading
-Data Name         | Download Size | Granules/Files| Format          | Extention | Library to read |<br>
-AIRS              | 54 GB         | 123           | HDF-EOS2 (hdf4) | .hdf      | pyhdf           |<br>
-Snow Cover        | 543 MB        | 127           | HDF-EOS2 (hdf4) | .hdf      | pyhdf           |<br>
-Lakes             | 189 MB        | -             | -               | .csv      |                 |<br>
-Vegetation        | 6.5 GB        | 64            | HDF-EOS2        | .hdf      | pyhdf           |<br>
-Night Time Lights | 53 GB         | 14k           | HDF5            | .hdf5     | h5py            |<br>
-Nitrogen Dioxide  | 12.51 GB      | 1004          | HDF5            | .hdf5     | h5py            |<br>
+Data Name         | Download Size | Granules/Files| Format          | Extention | Library to read | Area| Downloaded Resolution and Gap | Resolution made and gap | 
+------------------|---------------|---------------|-----------------|-----------|-----------------|-----|-------------------------------|-------------------------|
+AIRS              | 54 GB         | 123           | HDF-EOS2 (hdf4) | .hdf      | pyhdf           |World| 1 degree, 8-day               | 1 degree, 8-day
+Snow Cover        | 543 MB        | 127           | HDF-EOS2 (hdf4) | .hdf      | pyhdf           |World| 0.05 degree, 16-day           | 0.05, 0.025, 1 degree, 16-day
+Lakes             | 189 MB        | -             | -               | .csv      | -               |World| -                             | -
+Vegetation        | 6.5 GB        | 64            | HDF-EOS2        | .hdf      | pyhdf           |World| 0.05 degree, 16-day           | 0.05, 0.25, 1 degree, 16-day
+Night Time Lights | 53 GB         | 14k           | HDF5            | .hdf5     | h5py            |India| 500 m, daily                  | 0.05, 0.25, 1 degree, daily and 8-day
+Nitrogen Dioxide  | 12.51 GB      | 1004          | HDF5            | .hdf5     | h5py            |World| 0.25 degree, daily            | 0.05, 0.25, 1 degree for daily and 0.25, 1 degree for 8-day 
+
+### Data Downloading Process<br>
+After applying required filters (such as dates, Level 3, attributes etc), will get the script containing names of all the files/granules to be downloaded. Example AIRS data had 123 files, Night time lights had 14k files.<br>
+Things to be taken care of while downloading data: <br>
+1. Links from script file can be taken and can be downloaded one by one manually or if interface provides clickable links then those can also be useful.<br>
+2. If all the files are to downloaded using script, then internet connection should be strong or if in the middle of the process something goes wrong then carefully look at the files downloaded and edit accordingly in the script.<br>
+3. If there are a lot of files or too large files then the downloading process will be very slow. Parallelization can be used to increase the effiency of downloading. Prepare number of different scripts with different file names and execute them parallely. (most helpful for Night Time Light)
+
 
 
 ##### Is this really necessary?<br>
