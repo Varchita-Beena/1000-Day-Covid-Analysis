@@ -7,6 +7,23 @@ Each centre supports one or more Earth science disciplines and delivers data pro
 
 **The effects of lockdown on nitrogen dioxide and ozone air pollutants, surface temperature, night lights, snow cover, vegetation, and water level are examined in this study.**<br><br>
 
+## SUMMARY
+### Data Downloading
+Data Name | Download Size | Granules/Files
+--- | --- | --- | --- | --- | --- | --- |
+AIRS | 54 GB | 123
+--- | --- | --- | --- | --- | --- | --- |
+Snow Cover | 543 MB | 127
+--- | --- | --- | --- | --- | --- | --- |
+Lakes | 189 MB | 
+--- | --- | --- | --- | --- | --- | --- |
+Vegetation | 6.5 GB | 64
+--- | --- | --- | --- | --- | --- | --- |
+Night Time Lights | 53 GB | 14k
+--- | --- | --- | --- | --- | --- | --- |
+Nitrogen Dioxide | 12.51 GB | 1004
+--- | --- | --- | --- | --- | --- | --- |
+
 ##### Is this really necessary?<br>
 Enormous effects are in place to restore the environment standards. But in the last few months, the coronavirus lockdown has led to a drop in pollution across the world. The contingency measure has improved air and water quality, clean beaches and environmental noise reduction.<br> As companies, transportation, and campaigns have stopped down, there has been a noticeable drop in GreenHouse Gases (GHGs) emissions. Because automobiles and people were both inside the dwellings, air pollution had lessened. The shutdown of heavy industries resulted in a reduction in N2O and CO emissions, as well as a reduction in NO2 emissions from fossil fuel combustion in several countries (e.g., US, Canada, China, India, Italy, Brazil, etc.) It is the most important indicator of global economic activity. Acid rain is primarily created by the interaction of NO2 and water.<br><br>
 
