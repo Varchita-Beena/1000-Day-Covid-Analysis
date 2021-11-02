@@ -12,7 +12,7 @@ Each centre supports one or more Earth science disciplines and delivers data pro
 Data Name         | Download Size | Granules/Files| Format          | Extention | Library to read | Area| Downloaded Resolution and Gap | Resolution made and gap | 
 ------------------|---------------|---------------|-----------------|-----------|-----------------|-----|-------------------------------|-------------------------|
 AIRS              | 54 GB         | 123           | HDF-EOS2 (hdf4) | .hdf      | pyhdf           |World| 1 degree, 8-day               | 1 degree, 8-day
-Snow Cover        | 543 MB        | 127           | HDF-EOS2 (hdf4) | .hdf      | pyhdf           |World| 0.05 degree, 16-day           | 0.05, 0.025, 1 degree, 16-day
+Snow Cover        | 543 MB        | 127           | HDF-EOS2 (hdf4) | .hdf      | pyhdf           |World| 0.05 degree, 8-day            | 0.05, 0.025, 1 degree, 8-day
 Lakes             | 189 MB        | -             | -               | .csv      | -               |World| -                             | -
 Vegetation        | 6.5 GB        | 64            | HDF-EOS2        | .hdf      | pyhdf           |World| 0.05 degree, 16-day           | 0.05, 0.25, 1 degree, 16-day
 Night Time Lights | 53 GB         | 14k           | HDF5            | .hdf5     | h5py            |India| 500 m, daily                  | 0.05, 0.25, 1 degree, daily and 8-day
