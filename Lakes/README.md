@@ -1,8 +1,8 @@
-LakePy is the pythonic user-centered front-end to the (Global Lake Level Database)[https://github.com/ESIPFed/Global-Lake-Level-Database]. This package can instantly deliver lake water levels for some 2000+ lakes scattered across the globe. <br>
+LakePy is the pythonic user-centered front-end to the [Global Lake Level Database](https://github.com/ESIPFed/Global-Lake-Level-Database). This package can instantly deliver lake water levels for some 2000+ lakes scattered across the globe. <br>
 The Global Lake Level Database (GLLD) is the back-end architecture for the Python package LakePy. The GLLD hosts historic lake level data on an Amazon Web Services (AWS) Relational Database Service (RDS).Currently the GLLD data comes from three sources (so far!)<br>
 
-[United States Geological Survey National Water Information System](https://waterdata.usgs.gov/nwis)
-[United States Department of Agriculture: Foriegn Agricultural Service's G-REALM Database](https://ipad.fas.usda.gov/cropexplorer/global_reservoir/)
+[United States Geological Survey National Water Information System](https://waterdata.usgs.gov/nwis)<br>
+[United States Department of Agriculture: Foriegn Agricultural Service's G-REALM Database](https://ipad.fas.usda.gov/cropexplorer/global_reservoir/)<br>
 [Theia's HydroWeb Database](http://hydroweb.theia-land.fr/)<br><br>
 
 The GLLD consists of two tables:<br>
