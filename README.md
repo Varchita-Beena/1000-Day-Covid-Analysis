@@ -8,6 +8,8 @@ Each centre supports one or more Earth science disciplines and delivers data pro
 **The effects of Covid-19 on nitrogen dioxide and ozone air pollutants, surface temperature, night lights, snow cover, vegetation, and water level are examined in this study.**<br><br>
 
 ## SUMMARY
+**[CSV files made from the downloaded datasets and used in this analysis](https://drive.google.com/drive/folders/1MxJecaS2ZMu2FCH20GsY-PstirZBXlo2?usp=sharing)**<br>
+The datasets are downloaded for period 01-01-2019 to 30-09-2021. 
 ### Visualization for change in NO2 due to lockdown.<br>
 ![change in NO2 due to lockdown](https://github.com/Varchita-Beena/1000-Day-Covid-Analysis/blob/main/Omino2/analysis/no2_lockdown_change_visualisation.jpeg)
 
