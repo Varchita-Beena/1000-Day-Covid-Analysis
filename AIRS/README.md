@@ -14,7 +14,7 @@ Analysis at 1 degree for Indian cities.<br>
 * Comparison of percentage change between pre and post lockdown dates of 2019 and 2020: *At the peak of the lockdown (4th and 5th week), the difference between the percentage change between in 2019 and 2020 was the most. This implies that cities in generall demonstarted lesser temperature increase (1% = 3 degrees) during those weeks in 2020.*<br>
 * Regression tells us covid leads to decrease in Surface skin temperature in day of 1.5 to 2 degrees and Surface Skin Temperature at night time is decreased due to covid by 1.86 degrees at night between first week of march and first week of april (second week of lockdown).<br><br>
 
-## Referred paper
+## Studied paper
 [COVID-19 lockdown effect on land surface temperature and normalized difference vegetation index](https://www.tandfonline.com/doi/full/10.1080/19475705.2021.1914197)<br>
 The study examines the changes found in land surface temperature (LST) and normalized difference vegetation index (NDVI) during the lockdown period in Raipur city, India with the earlier periods (2013–19) to compare the environmental status. The results indicate that the LST is reduced and NDVI is increased significantly during the lockdown period, and the negativity of the LST-NDVI correlation is increased remarkably. The study also shows a better ecological status of the city during the lockdown period. The study is useful for environmental strategists and urban planners.<br><br>
 
