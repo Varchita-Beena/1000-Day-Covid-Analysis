@@ -1,3 +1,3 @@
-Cities dataset is downloaded from [here](https://public.opendatasoft.com/explore/dataset/geonames-all-cities-with-a-population-1000/table/?disjunctive.cou_name_en&sort=name). It has geonames of all cities. <br>
-To map latitude and logitude of cities to 0.25, 0.05 and 1 degree, the logics explained in AIRS data and in vegetation are used. They can also be validated using validate notebook in AIRS/data preparation notebooks.<br>
-The final location will be the combination of many smaller locations, so addition of population of all smaller locations is done. This means addition of populations is done which fall in selected degree/block. (0.25, 0.05, 1 degrees)
+* Cities dataset is downloaded from [here](https://public.opendatasoft.com/explore/dataset/geonames-all-cities-with-a-population-1000/table/?disjunctive.cou_name_en&sort=name). It has geonames of all cities. <br>
+* To map latitude and logitude of cities to 0.25, 0.05 and 1 degree, the logics explained in AIRS data and in vegetation are used. They can also be validated using validate notebook in AIRS/data preparation notebooks.<br>
+* The final location will be the combination of many smaller locations, so addition of population of all smaller locations is done. This means addition of populations is done which fall in selected degree/block. (0.25, 0.05, 1 degrees)
