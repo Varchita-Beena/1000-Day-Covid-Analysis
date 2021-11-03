@@ -1,3 +1,28 @@
+## Analysis
+Analysis at 1 degree for Indian cities.
+**Night Time Ozone** <br>
+* Weekwise O3 average of all cities of 2019 and 2020:<br> *In 2020, O3 was increasing from beginning of the year. It stayed high during lockdown in April. It started decreasing in May, when lockdown started to ease. During the months of post lockdown phase (May-June-July), O3 was lower and followed different pattern than 2019.*<br>
+* Difference in O3 values between the same week of 2020 and 2019: <br> *On an average there was 4.5% increase in O3 in first week of lockdown (4th week of March) in 2020 compared to 2019. In 4th week of April, this increase became 7%. Cities with high increase appear to be more towards north and noth-east. Cities with low increase seem to be towards south and west. Also the cities with high increase have higher elevation compared to the cities with low increase. Another interesting point is that the cities with very high populations are not particularly the ones which have higher increase in O3.*
+* Regression tells us:<br> *Covid leads to decrease in O3 after lockdown compared to pre-lockdown values*
+* Pre and Post lockdown in 2020: *There is around 7% increase in O3 in 2020 during lockdown in compared to before lockdown. Post lockdown, O3 decreases and no difference is observed. Infact a decrease of -2 to -3% is observed. So clearly, Ozone went up during lockdown and came down to pre-lockdown levels post lockdown.*
+* Comparison of percentage change between pre and post lockdown dates of 2019 and 2020: *In 2019, the percentage changes are higher than the percentage changes in 2020. But the gap between them reduces when we are deep in lockdown. During 5th week of lockdown, the gap between them is much lower, with both being positive. Post lockdown, the difference in the percentage changes is much higher with 2020 being negative. This gives a good evidence of increase in O3 during lockdown and significant decrease in O3 post lockdown.*<br><br>
+
+
+**Surface Skin Temprature (day time)**<br>
+* Weekwise Surface Skin Temperature average of all cities of 2019 and 2020: *In general, the surface skin temperature for both the years follow the similar curve. But if we look closely, there might be a hint of some small change. During lockdown, 2020 has seen little lesser temperature and during the end of the year, particularly in the months of september and october, there seems to be a bit higher temperature in 2020.*<br>
+* Difference in Surface Skin Temperature values between the same week of 2020 and 2019: *In the first week of march, there wasnt much difference among the two years 2019 and 2020. It seems that during the lockdown period, the temperature decreased in 2020, compared to 2019. That would be upto 3-4 degrees Kelvin*<br>
+* Comparison of percentage change between pre and post lockdown dates of 2019 and 2020: *At the peak of the lockdown (4th and 5th week), the difference between the percentage change between in 2019 and 2020 was the most. This implies that cities in generall demonstarted lesser temperature increase (1% = 3 degrees) during those weeks in 2020.*<br>
+* Regression tells us covid leads to decrease in Surface skin temperature in day of 1.5 to 2 degrees and Surface Skin Temperature at night time is decreased due to covid by 1.86 degrees at night between first week of march and first week of april (second week of lockdown).<br><br>
+
+
+## Referred paper.
+[COVID-19 IMPACT ON ASIAN EMISSIONS: INSIGHT FROM SPACE OBSERVATIONS](https://www2.acom.ucar.edu/news/covid-19-impact-asian-emissions-insight-space-observations?_ga=2.94930140.194184266.1635963992-335902505.1634714874)<br>
+This study shows us: The changes in tropospheric carbon monoxide (CO) over eastern China using NASA Terra/MOPITT and ESA S5P/TROPOMI data. The changes between the early lockdown period (1 February to 10 March 2020) and the equivalent period in the 2019 season are consistently quantified by the two datasets. They find approximately 30 to 45% peak reductions in CO comparing the post Chinese New Year (CNY) periods in 2020 to 2019. Their results indicate that CO in the Beijing-Chengdu-Shanghai-Wuhan area has decreased on average by almost 6%, with more than 46% reduction locally. CO increase over SE Asia is consistent with seasonal fires, also observed by the MODIS instruments. Their study period is Chinese New Year of 2019 (4-10 feb) and 2020 (24 - 30 jan)<br><br>
+ The much wider extent and magnitude of the decrease in NO2 compared to CO reflects the different sources and lifetimes of the two pollutants. CO lifetime is a few months in winter, so measurements include contributions from globally transported CO. NO2 lifetime is hours to days, so observations show local emission sources much more directly than CO. There are also differences in emission sources for CO and NO2. We would expect the industry and transportation sectors to be most affected by the lockdown and both have CO and NO2 emissions. However, the largest source of CO in Asia is the residential sector, which would likely not have reductions due to the lockdown.<br><br>
+
+
+
+
 ## Why air pollution should be analysed?
 “For every small increment in air pollution there’s a substantial increase in death,” says Aaron Berstein, the director of the Center for Climate, Health, and Global Environment at Harvard University.<br><br>
 The major outdoor air pollutants are Ozone, Nitrogen Oxides, Carbon Monoxide, Sulfur Dioxide and Particulate Matter (PM2.5 and PM 10). Cookstoves, coal-fired power plants, car emissions, wildfires, and dust storms are all examples of manmade and natural sources of air pollution.<br><br>
