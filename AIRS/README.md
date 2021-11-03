@@ -15,12 +15,6 @@ Analysis at 1 degree for Indian cities.
 * Regression tells us covid leads to decrease in Surface skin temperature in day of 1.5 to 2 degrees and Surface Skin Temperature at night time is decreased due to covid by 1.86 degrees at night between first week of march and first week of april (second week of lockdown).<br><br>
 
 
-## Referred paper.
-[COVID-19 IMPACT ON ASIAN EMISSIONS: INSIGHT FROM SPACE OBSERVATIONS](https://www2.acom.ucar.edu/news/covid-19-impact-asian-emissions-insight-space-observations?_ga=2.94930140.194184266.1635963992-335902505.1634714874)<br>
-This study shows us: The changes in tropospheric carbon monoxide (CO) over eastern China using NASA Terra/MOPITT and ESA S5P/TROPOMI data. The changes between the early lockdown period (1 February to 10 March 2020) and the equivalent period in the 2019 season are consistently quantified by the two datasets. They find approximately 30 to 45% peak reductions in CO comparing the post Chinese New Year (CNY) periods in 2020 to 2019. Their results indicate that CO in the Beijing-Chengdu-Shanghai-Wuhan area has decreased on average by almost 6%, with more than 46% reduction locally. CO increase over SE Asia is consistent with seasonal fires, also observed by the MODIS instruments. Their study period is Chinese New Year of 2019 (4-10 feb) and 2020 (24 - 30 jan)<br><br>
- The much wider extent and magnitude of the decrease in NO2 compared to CO reflects the different sources and lifetimes of the two pollutants. CO lifetime is a few months in winter, so measurements include contributions from globally transported CO. NO2 lifetime is hours to days, so observations show local emission sources much more directly than CO. There are also differences in emission sources for CO and NO2. We would expect the industry and transportation sectors to be most affected by the lockdown and both have CO and NO2 emissions. However, the largest source of CO in Asia is the residential sector, which would likely not have reductions due to the lockdown.<br><br>
-
-
 
 
 ## Why air pollution should be analysed?
