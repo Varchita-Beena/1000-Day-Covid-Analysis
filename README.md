@@ -8,15 +8,20 @@ Each centre supports one or more Earth science disciplines and delivers data pro
 **The effects of Covid-19 on nitrogen dioxide and ozone air pollutants, surface temperature, night lights, snow cover, vegetation, and water level are examined in this study.**<br><br>
 
 ## SUMMARY
+### Visualization for change in NO2 due to lockdown.<br>
+![change in NO2 due to lockdown](https://github.com/Varchita-Beena/1000-Day-Covid-Analysis/blob/main/Omino2/analysis/no2_lockdown_change_visualisation.jpeg)
+
 ### Data Downloading
 Data Name         | Download Size | Granules/Files| Format          | Extention | Library to read | Area| Downloaded Resolution and Gap | Resolution made and gap | 
 ------------------|---------------|---------------|-----------------|-----------|-----------------|-----|-------------------------------|-------------------------|
 AIRS              | 54 GB         | 123           | HDF-EOS2 (hdf4) | .hdf      | pyhdf           |World| 1 degree, 8-day               | 1 degree, 8-day
 Snow Cover        | 543 MB        | 127           | HDF-EOS2 (hdf4) | .hdf      | pyhdf           |World| 0.05 degree, 8-day            | 0.05, 0.025, 1 degree, 8-day
 Lakes             | 189 MB        | -             | -               | .csv      | -               |World| -                             | -
-Vegetation        | 6.5 GB        | 64            | HDF-EOS2        | .hdf      | pyhdf           |World| 0.05 degree, 16-day           | 0.05, 0.25, 1 degree, 16-day
-Night Time Lights | 53 GB         | 14k           | HDF5            | .hdf5     | h5py            |India| 500 m, daily                  | 0.05, 0.25, 1 degree, daily and 8-day
-Nitrogen Dioxide  | 12.51 GB      | 1004          | HDF5            | .hdf5     | h5py            |World| 0.25 degree, daily            | 0.05, 0.25, 1 degree for daily and 0.25, 1 degree for 8-day 
+Vegetation        | 6.5 GB        | 64            | HDF-EOS2  (hdf4)| .hdf      | pyhdf           |World| 0.05 degree, 16-day           | 0.05, 0.25, 1 degree, 16-day
+Night Time Lights | 53 GB         | 14k           | HDF-EOS2 (hdf5) | .hdf5     | h5py            |India| 500 m, daily                  | 0.05, 0.25, 1 degree, daily and 8-day
+Nitrogen Dioxide  | 12.51 GB      | 1004          | HDF-EOS2 (hdf5) | .hdf5     | h5py            |World| 0.25 degree, daily            | 0.05, 0.25, 1 degree for daily and 0.25, 1 degree for 8-day 
+
+**Other two data sets of Cities having information about latitude, longitude, elevation etc of cities and CovidOxford having information about deaths, stringency index etc are also downloaded**
 
 ### Data Downloading Process<br>
 After applying required filters (such as dates, Level 3, attributes etc), will get the script containing names of all the files/granules to be downloaded. Example AIRS data had 123 files, Night time lights had 14k files.<br>
@@ -46,8 +51,6 @@ Things to be taken care of while downloading data: <br>
 7. The snow cover hasnt actually increased in 2020. So probably, the melting of snow is dynamic and is different in amount in different weeks. It looks like in lockdown months the decrease in snow cover is lesser in 2020 compared to 2019, but the snow cover in total hasnt changed much. The same case is for snow cover across the globe. Regression does show probable increase of snow cover of 3 points during middle months of 2020 compared to 2019. However, it is very tough to conclude anything from this.<br>
 8. Overall not much change in vegetation index<br><br>
 
-### Visualization for change in NO2 due to lockdown.<br>
-![change in NO2 due to lockdown](https://github.com/Varchita-Beena/1000-Day-Covid-Analysis/blob/main/Omino2/analysis/no2_lockdown_change_visualisation.jpeg)
 
 ### Future work and some points
 1. Using PCA (dimensionality reduction) we have got a component say Environment Index for now. Next we have to transform every data point to this component and then do the analysis of this component as descibed in other analysis notebooks. It will an analysis of combination of features/metrics.<br>
