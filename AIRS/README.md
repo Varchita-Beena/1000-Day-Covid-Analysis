@@ -1,5 +1,5 @@
 ## Analysis
-Analysis at 1 degree for Indian cities.
+Analysis at 1 degree for Indian cities.<br>
 **Night Time Ozone** <br>
 * Weekwise O3 average of all cities of 2019 and 2020:<br> *In 2020, O3 was increasing from beginning of the year. It stayed high during lockdown in April. It started decreasing in May, when lockdown started to ease. During the months of post lockdown phase (May-June-July), O3 was lower and followed different pattern than 2019.*<br>
 * Difference in O3 values between the same week of 2020 and 2019: <br> *On an average there was 4.5% increase in O3 in first week of lockdown (4th week of March) in 2020 compared to 2019. In 4th week of April, this increase became 7%. Cities with high increase appear to be more towards north and noth-east. Cities with low increase seem to be towards south and west. Also the cities with high increase have higher elevation compared to the cities with low increase. Another interesting point is that the cities with very high populations are not particularly the ones which have higher increase in O3.*
